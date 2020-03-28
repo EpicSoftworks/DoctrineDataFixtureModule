@@ -22,8 +22,8 @@
     ],
     "require": {
         "php": "^7",
-        "doctrine/data-fixtures": "^1.3",
-        "doctrine/doctrine-orm-module": "^1.1",
+        "doctrine/data-fixtures": "*",
+        "doctrine/doctrine-orm-module": "^3.0",
         "php-coveralls/php-coveralls": "^2.0",
         "laminas/laminas-dependency-plugin": "^1.0"
     },
