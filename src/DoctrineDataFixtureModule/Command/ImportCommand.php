@@ -103,6 +103,8 @@ class ImportCommand extends Command
         }
 
         $executor->execute($loader->getFixtures(), $input->getOption('append'));
+
+        return 1;
     }
 
     /**
